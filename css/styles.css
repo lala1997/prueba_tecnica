@@ -1,0 +1,35 @@
+:root{
+--colorazul:#00549c;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.colorazul{
+    color: var(--colorazul);
+}
+
+.bg-azul{
+    background-color:var(--colorazul);
+}
+
+nav ol li a{
+    color: var(--colorazul);
+}
+
+.btn-warning{
+    color:#ffff;
+}
+
+.form-select{
+   background-image: url('../icon/caret-down-fill.svg');
+   background-size: 16px 16px;
+}
+
+.fa-stopwatch:before {
+    color:#6c757d;
+}
